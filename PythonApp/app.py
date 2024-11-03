@@ -7,7 +7,7 @@ CORS(app)  # To allow cross-origin requests from the React frontend
 # Sample data to serve
 data = [
     {"id": 1, "name": "Alice", "age": 30, "country": "USA"},
-    {"id": 2, "name": "Bob", "age": 25, "country": "Canada"},
+    {"id": 2, "name": "Stodtmann", "age": 25, "country": "Germany"},
     {"id": 3, "name": "Charlie", "age": 35, "country": "UK"},
 ]
 
