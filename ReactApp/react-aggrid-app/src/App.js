@@ -5,14 +5,15 @@ import 'ag-grid-community/styles/ag-grid.css'; // AG Grid CSS
 import 'ag-grid-community/styles/ag-theme-alpine.css'; // AG Grid theme CSS
 import { Navbar, Nav, NavDropdown, Container } from 'react-bootstrap';
 
+
 /**
- * A React component that displays a grid of data from a backend API.
- *
- * The App component fetches data from the backend API when it mounts, and
- * displays it in a grid with the specified columns.
+ * The main application component, which displays a navigation bar with four
+ * tabs and a data grid below it. The data grid is populated with data from
+ * a server via an HTTP GET request.
  *
  * @returns {React.ReactElement}
  */
+
 const App = () => {
     const [rowData, setRowData] = useState([]);
 
